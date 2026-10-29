@@ -57,7 +57,7 @@ setup_proxy() {
 
 # "files/7.x/reaper784_linux_x86_64.tar.xz"
 latest_path() {
-	curl -fsSL --max-time 15 https://www.reaper.fm/download.php |
+	curl -fsSL --connect-timeout 10 --max-time 13 --retry 1 https://www.reaper.fm/download.php |
 		grep -oE "files/[0-9]+\.x/$FILE_RE" | head -1
 }
 

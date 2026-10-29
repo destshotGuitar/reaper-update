@@ -1,7 +1,7 @@
 -- @description Update REAPER
 -- @author destshotGuitar
--- @version 1.0.0
--- @changelog Initial release
+-- @version 1.0.1
+-- @changelog Retry the version check once if reaper.fm does not answer
 -- @link https://github.com/destshotGuitar/reaper-update
 -- @about
 --   # Update REAPER

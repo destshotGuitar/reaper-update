@@ -11,6 +11,12 @@
         <source file="reaper-update/update.sh">https://github.com/destshotGuitar/reaper-update/raw/v1.0.0/Various/reaper-update/update.sh</source>
         <source file="reaper-update/update.ps1">https://github.com/destshotGuitar/reaper-update/raw/v1.0.0/Various/reaper-update/update.ps1</source>
       </version>
+      <version name="1.0.1" author="destshotGuitar" time="2026-10-29T07:42:49Z">
+        <changelog><![CDATA[Retry the version check once if reaper.fm does not answer]]></changelog>
+        <source main="main">https://github.com/destshotGuitar/reaper-update/raw/v1.0.1/Various/Update%20REAPER.lua</source>
+        <source file="reaper-update/update.sh">https://github.com/destshotGuitar/reaper-update/raw/v1.0.1/Various/reaper-update/update.sh</source>
+        <source file="reaper-update/update.ps1">https://github.com/destshotGuitar/reaper-update/raw/v1.0.1/Various/reaper-update/update.ps1</source>
+      </version>
     </reapack>
   </category>
   <metadata>
